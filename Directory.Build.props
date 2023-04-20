@@ -1,0 +1,18 @@
+﻿<Project>
+  <PropertyGroup>
+    <RootNamespace>SKBKontur.Cabinet.$(MSBuildProjectName)</RootNamespace>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32bit>false</Prefer32bit>
+    <LangVersion>10</LangVersion>
+    <SatelliteResourceLanguages>en;ru</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>1.2.0</Version>
+    <Authors>SKB Kontur CaCabinet</Authors>
+    <Company>SKB Kontur</Company>
+    <Product>IocComparer</Product>
+    <Title></Title>
+    <Description></Description>
+  </PropertyGroup>
+</Project>
