@@ -30,7 +30,7 @@ public class InstanceRegistration // aka ConstructorRegistration
     [Test]
     public void MicrosoftDI_InstanceResolve_Success()
     {
-        _microsoftContainer.AddTransient<IInstance>(_ => new Instance { SomeProperty = 1234 });
+        _microsoftContainer.AddSingleton<IInstance>(_ => new Instance { SomeProperty = 1234 });
         var container = _microsoftContainer.BuildServiceProvider();
         var instance = container.GetService<IInstance>();
         
